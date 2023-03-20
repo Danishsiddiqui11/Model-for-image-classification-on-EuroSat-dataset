@@ -14,3 +14,4 @@ Keras framework is used to implement this model.As EuroSAT does not define a tes
 - To make the problem simple only the classifier part of the model was replaced and trained. For increasing the accuracy, the model could be *further fine tuned by freezing the last few layers from the feature extraction layers.*
 - Different architectures like *SENet, GoogLENet or ResNet with more number of layers* could be tested for better accuracy. 
 - *Changing the activation function* of the classifer could result in slight imrprovement in accuracy.
+- Different *Hyper parameter choices* like change in batch size,learning rate, optimizer and number of epochs can be employed to get some improvements.
