@@ -12,3 +12,7 @@ The model was trained for ***20 epochs*** and was able to avhieve an accuracy of
 **Inference.ipynb** performs the inference by generating confusion matrix, classification report and sample predictions. It can be seen from the confusion matrix that the classifier sometimes confuses AnnualCrop, as well as the classes PermanentCrop and SeaLake.
 
 ## Potential improvements to the solution:
+
+To make the problem simple only the classifier part of the model was replaced and trained. For increasing the accuracy, the model could be further fine tuned by freezing the last few layers from the feature extraction layers.
+Different architectures like SENet, GoogLENet or ResNet with more number of layers could be tested for better accuracy. 
+Changing the activation function of the classifer could result in slight imrprovement in accuracy.
